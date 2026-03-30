@@ -1,0 +1,58 @@
+prefix: "&8[&aProTPA&8] "
+
+usage-tpa: "&7Usage: /tpa <player>"
+
+cannot-request-self: "&cYou cannot send a request to yourself!"
+player-not-found: "&cPlayer {player} not found or is offline!"
+target-toggled-off: "&c{player} has teleport requests disabled!"
+in-combat: "&cYou cannot teleport while in combat!"
+on-cooldown: "&cYou must wait {time} seconds before using this again!"
+already-has-request: "&c{player} already has a pending request!"
+no-permission: "&cYou don't have permission to use this!"
+
+request-sent: "&aYou sent a teleport request to &e{player}&a!"
+request-received: "&e{player} &awants to teleport to you!"
+tpahere-request: "&a{player} wants you to teleport to them!"
+
+no-pending-request: "&cYou don't have any pending requests!"
+requester-offline: "&cThe requester is no longer online!"
+requester-in-combat: "&cThe requester is in combat!"
+
+request-accepted: "&aYou accepted the request from &e{player}&a!"
+your-request-accepted: "&e{player} &aaccepted your teleport request!"
+
+request-denied: "&cYou denied the teleport request!"
+your-request-denied: "&e{player} &cdenied your teleport request!"
+
+request-expired: "&cYour teleport request has expired!"
+request-expired-target: "&cThe teleport request has expired!"
+
+teleported: "&aTeleport complete!"
+unsafe-location: "&cTeleport cancelled - destination is unsafe!"
+
+teleport-cancelled-move: "&cTeleport cancelled - you moved!"
+teleport-cancelled-damage: "&cTeleport cancelled - you took damage!"
+
+titles:
+  subtitle: "&7Teleporting..."
+  success: "&aSuccess!"
+  cancel: "&cCancelled!"
+
+combat-tagged: "&cYou are now in combat!"
+combat-expired: "&aYou are no longer in combat!"
+
+toggle-on: "&aTeleport requests enabled!"
+toggle-off: "&cTeleport requests disabled!"
+
+back-death-recorded: "&aYour death location has been saved! Use &e/back &ato teleport back within 5 minutes!"
+back-teleported: "&aTeleported back to your death location!"
+back-no-death-location: "&cYou have no death location recorded!"
+back-location-expired: "&cYour death location has expired! (5 minute limit)"
+back-disabled: "&cThe /back command is disabled!"
+
+rtp-start: "&aTeleporting to a random safe location..."
+rtp-fail: "&cFailed to find safe location!"
+rtp-complete: "&aTeleported to {world}!"
+rtp-select-world: "&aSelect a world for teleport"
+rtp-searching: "&aSearching safe location in {world}..."
+rtp-world-not-found: "&cWorld {world} is not available!"

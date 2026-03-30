@@ -1,0 +1,53 @@
+teleport:
+  delay: 3
+
+request:
+  timeout: 60
+
+cooldown:
+  duration: 30
+
+rtp:
+  min-radius: 100
+  max-radius: 1000
+  cooldown: 30
+
+back:
+  enabled: true
+  expiry-seconds: 300
+
+combat:
+  block-teleport: true
+  tag-duration: 10
+
+safety:
+  enabled: true
+
+animations:
+  enabled: true
+  particles:
+    enabled: true
+    type: CRIT
+  titles:
+    enabled: true
+    fade-in: 0
+    stay: 15
+    fade-out: 0
+  sounds:
+    enabled: true
+    tick: UI_BUTTON_CLICK
+    teleport: ENTITY_ENDERMAN_TELEPORT
+
+sounds:
+  enabled: true
+  request: ENTITY_EXPERIENCE_ORB_PICKUP
+  accept: ENTITY_PLAYER_LEVELUP
+  deny: BLOCK_ANVIL_LAND
+  teleport: ENTITY_ENDERMAN_TELEPORT
+  countdown: BLOCK_NOTE_BLOCK_HAT
+
+gui:
+  world-select-title: "&aSelect World"
+  tpa-request-title: "&aTeleport Request"
+  accept-item: GREEN_WOOL
+  deny-item: RED_WOOL

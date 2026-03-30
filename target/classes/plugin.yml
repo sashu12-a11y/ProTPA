@@ -1,0 +1,68 @@
+name: ProTPA
+version: 1.0
+main: me.yourname.protpa.ProTPA
+api-version: 1.20
+author: YourName
+description: Premium TPA plugin with GUI system
+
+commands:
+  tpa:
+    description: Send a teleport request to a player
+    usage: /tpa <player>
+    permission: protpa.use
+  tpahere:
+    description: Request player to teleport to you
+    usage: /tpahere <player>
+    permission: protpa.use
+  tpaccept:
+    description: Accept a teleport request
+    usage: /tpaccept
+    permission: protpa.accept
+  tpdeny:
+    description: Deny a teleport request
+    usage: /tpdeny
+    permission: protpa.deny
+  tpatoggle:
+    description: Toggle teleport requests on/off
+    usage: /tpatoggle
+    permission: protpa.toggle
+  rtp:
+    description: Random teleport with world selection GUI
+    usage: /rtp
+    permission: protpa.rtp
+  back:
+    description: Teleport back to your last death location
+    usage: /back
+    permission: protpa.back
+  protpa:
+    description: Main plugin command
+    usage: /protpa reload
+
+permissions:
+  protpa.use:
+    description: Allows using /tpa and /tpahere commands
+    default: true
+  protpa.accept:
+    description: Allows using /tpaccept command
+    default: true
+  protpa.deny:
+    description: Allows using /tpdeny command
+    default: true
+  protpa.toggle:
+    description: Allows using /tpatoggle command
+    default: true
+  protpa.rtp:
+    description: Allows using /rtp command
+    default: true
+  protpa.back:
+    description: Allows using /back command
+    default: true
+  protpa.reload:
+    description: Allows reloading the plugin
+    default: op
+  protpa.bypass.cooldown:
+    description: Bypass teleport cooldown
+    default: op
+  protpa.bypass.combat:
+    description: Bypass combat tag restriction
+    default: op
