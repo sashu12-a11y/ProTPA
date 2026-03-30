@@ -12,6 +12,13 @@
     <name>ProTPA</name>
     <description>Premium TPA plugin with RTP system</description>
 
+    <developers>
+        <developer>
+            <name>Sashank</name>
+            <email>sashankc344@gmail.com</email>
+        </developer>
+    </developers>
+
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
         <maven.compiler.target>16</maven.compiler.target>
